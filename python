@@ -1,0 +1,37 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> print
+<built-in function print>
+>>> print"hello you"
+SyntaxError: invalid syntax
+>>> print "hello you "
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("hello you ")?
+>>> print "hello you"
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("hello you")?
+>>> print("hello you")
+hello you
+>>> input(renzo)
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    input(renzo)
+NameError: name 'renzo' is not defined
+>>> imput ("renzo")
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    imput ("renzo")
+NameError: name 'imput' is not defined
+>>> input (renzo)
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    input (renzo)
+NameError: name 'renzo' is not defined
+>>> input ("renzo")
+renzo
+''
+>>> print("renzo is:" + renzo)
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    print("renzo is:" + renzo)
+NameError: name 'renzo' is not defined
+>>> input ("mika")
+mika
