@@ -55,6 +55,23 @@ if antwoord == "B":
 
 if antwoord == "C":
     print("jouw antwoord was "+ antwoord + " nog nooit geweest ")
+
+print("wat is mijn achternaam?")
+print("A. hoogewerf")
+print("B. de jong")
+print("C. heren")
+
+
+antwoord = input("A B of C?")
+if antwoord == "A":
+    print("jouw antwoord was "+ antwoord + " niet de leukste ")
+
+if antwoord == "B":
+    print("jouw antwoord was "+ antwoord + " helemaal goed ")
+
+if antwoord == "C":
+    print("jouw antwoord was "+ antwoord + " nog nooit geweest ")
+
     
 
 
